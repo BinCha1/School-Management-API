@@ -22,4 +22,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     # AUTH ROUTES
     path("api/auth/", include("apps.accounts.urls")),
+    path("api/subject/", include("apps.academics.urls")),
 ]
