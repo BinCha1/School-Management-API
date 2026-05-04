@@ -8,8 +8,15 @@ wheels/
 
 # Virtual environments
 .venv
-school_management\.env
-D:\TechNestInnovation\DRFProject\school_management\.env
+
+# Environment files
+.env
+.env.local
+.env.*.local
 
 # logs
-school_management\logs
+logs/
+*.log
+
+# Database
+db.sqlite3
